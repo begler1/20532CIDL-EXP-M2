@@ -4,14 +4,14 @@ Version: 1.0
 -->
 # Exercise 1: Creating a Network and Resource Container
 ## INTRODUCTION MESSAGE
-You want to create a virtual network that you can use for your new virtual machine. As part of creating the virtual network, you will also create a resource group.  
+You want to create a virtual network that you can use for your new virtual machine. 
   
 The main tasks for this exercise are as follows:  
   
 Sign in to the Azure Portal.  
-Create a virtual network and a resource group.
+Create a virtual network.
 ## COMPLETION MESSAGE
-Results: After completing this exercise, you will have a new virtual network and resource group in Azure.
+Results: After completing this exercise, you will have a new virtual network in Azure.
 ### Login as Student
 Login as Student with a password of Pa$$w0rd.
 
@@ -52,47 +52,6 @@ If this is your first time logging in to the Azure portal, you will see a dialog
 
 
 
-
-
-### Browse Resource Groups
-In the navigation pane on the left side of the Azure Portal, scroll down, and then click More Services. In the Browse blade that displays, click Resource groups.
-
-#### :camera: SCREENSHOT
->LODSProperties
->* Uri = screens/666263.jpg
-
-
-
-
-
-### Click the Add button
-In the Resource groups blade that displays, view your list of resource groups. At the top of the Resource groups blade, click the Add button.
-
-#### :camera: SCREENSHOT
->LODSProperties
->* Uri = screens/666264.jpg
-
-
-
-
-
-### In the Resource group blade, perform the following
-In the Resource group blade, perform the following steps:  
-a. In the Resource group name dialog box, provide the value 20532.  
-b. In the Resource group location list, select the region that is closest to your current location.  
-c. In the Resource group blade, click Create.
-
-#### :bulb: KNOWLEDGE
-Note: You can click on the LODS "Support" tab to view what data center location that this VM is running in. Click the LODS "Content" tab to return to these instructions.
-
-#### :camera: SCREENSHOT
->LODSProperties
->* Uri = screens/666265.jpg
-
-
-
-
-
 ### Browse Virtual networks
 In the navigation pane on the left side of the Azure Portal, scroll down, and then click More Services. In the Browse blade that displays, scroll down and click Virtual networks.
 
@@ -126,7 +85,7 @@ c. Ensure that the Address space box has the value 10.0.0.0/16.
 d. In the Subnet name box, provide the value Apps.  
 e. Ensure that the Subnet address range box has the value 10.0.0.0/24.  
 f. In the Resource group section, select the Use existing option.  
-g. In the Resource group section, locate the dialog box and provide the value 20532.  
+g. In the Resource group section, locate the dropdown listbox and select your pre-existing resource group.  
 h. In the Create virtual network blade, click Create.
 
 #### :camera: SCREENSHOT
@@ -183,7 +142,7 @@ d. In the Performance section, ensure that the Standard option is selected.
 e. Click on the Replication list and select the Locally-redundant storage \)LRS) option. Make sure the Storage service encryption option is Disabled.  
 f. In the Location list, select the region closest to your current location.  
 g. In the Resource group section, select the Use existing option.  
-h. In the Resource group section, locate the dialog box and provide the value 20532.  
+h. In the Resource group section, locate the dropdown listbox and select your pre-existing resource group.  
 i. Ensure that the Pin to Dashboard option is selected.  
 j. Click Create.
 
@@ -277,7 +236,7 @@ a. In the Name dialog box, provide the value vm20532.
 b. In the VM disk type list, select the value HDD.  
 c. In the User Name dialog box, provide the value Student.  
 d. In the Password and Confirm Password dialog boxes, provide the value AzurePa$$w0rd  
-e. In the Resource Group section, locate the Use existing option, and then select the 20532 resource group.  
+e. In the Resource Group section, locate the Use existing option, locate the dropdown listbox and select your pre-existing resource group.  
 f. In the Location list, select the region closest to your current location.  
 g. Click OK.
 
@@ -763,7 +722,7 @@ a. In the Files will be extracted to this folder: dialog, provide the value F:\\
 b. Ensure that the Show extracted files when complete checkbox is NOT selected.  
 c. Click Extract.  
 Wait for the extraction process to complete.
-
+.
 #### :camera: SCREENSHOT
 >LODSProperties
 >* Uri = screens/666312.jpg
@@ -814,8 +773,11 @@ Note: You may be prompted by Internet Explorer to remember this password. You ca
 
 ### Click Continue
 If you have never used Visual Studio in the past, you will be prompted to configure your Microsoft Account. Perform the following steps:  
-a. Leave the remaining fields set to their default values.  
-b. Click the Continue button
+a. If prompted for an account URL under the visualstudio.com domain, enter a unique value
+b. Leave the remaining fields set to their default values.  
+c. Click the Continue button
+d. If prompted to Create your first Project, click "Not now, maybe later"
+
 
 
 
@@ -893,7 +855,7 @@ Close RDP session and click OK to disconnect
 
 
 ### Stop VM to save billing charges
-If you are stopping labs for the day, on the vm2032 Overview page in the Azure Portal, click Stop to stop billing charges until you start labs again. When prompted, click Yes to stop the VM.
+If you are stopping labs for the day, on the vm2032 Overview page in the Azure Portal, click Stop to stop billing charges until you start labs again. If prompted, click Yes to stop the VM.
 
 #### :camera: SCREENSHOT
 >LODSProperties
@@ -909,18 +871,6 @@ Close Internet Explorer to end the lab
 #### :camera: SCREENSHOT
 >LODSProperties
 >* Uri = screens/666324.jpg
-
-
-
-
-
-### End Lab
-If you have finished the lab, choose the Exit menu and select Cancel Lab
-
-#### :camera: SCREENSHOT
->LODSProperties
->* Uri = screens/623066.jpg
-
 
 
 
