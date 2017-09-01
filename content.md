@@ -40,7 +40,7 @@ On the Start screen, click the Internet Explorer tile
 
 
 ### Go to the new Azure Portal
-Go to \)https://portal.azure.com). Enter the email address of your Microsoft account associated with your Azure subscription. Then enter the password for your Microsoft account. Check Keep me signed in. Click Sign In.
+Go to (https://portal.azure.com). Enter the email address of your Microsoft account associated with your Azure subscription. Then enter the password for your Microsoft account. Check Keep me signed in. Click Sign In.
 
 #### :bulb: KNOWLEDGE
 If this is your first time logging in to the Azure portal, you will see a dialog with a tour of the portal. Click Get Started to bypass the tour. If you see a pop-up for Skype for Business click Don't Enable. Note that you can further customize your Dashborad by clicking Edit Dashboard and then click Done Customizing when finished.
@@ -139,7 +139,7 @@ a. In the Name box, provide the value stor20532[your name in lowercase here].
 b. In the Deployment model section, ensure that the Resource manager option is selected.  
 c. In the Account kind list, ensure that the General purpose option is selected.  
 d. In the Performance section, ensure that the Standard option is selected.  
-e. Click on the Replication list and select the Locally-redundant storage \)LRS) option. Make sure the Storage service encryption option is Disabled.  
+e. Click on the Replication list and select the Locally-redundant storage (LRS) option. Make sure the Storage service encryption option is Disabled.  
 f. In the Location list, select the region closest to your current location.  
 g. In the Resource group section, select the Use existing option.  
 h. In the Resource group section, locate the dropdown listbox and select your pre-existing resource group.  
@@ -323,10 +323,10 @@ In the Settings section, select the Disks option. In the Disks blade, click Add 
 
 ### In the Attach unmanaged disk blade:
 In the Attach unmanaged disk blade, perform the following steps:  
-a. In the Source type, select New \)empty disk)  
-b. For Account type, select Standard \)HDD).  
-c. In the Size \)GiB) dialog box, provide the value, 128.  
-d. For Storage container, click Browse, then from the Storage account blade, select the previously created storage account, stor20532\[Your Name Here\]
+a. In the Source type, select New (empty disk)  
+b. For Account type, select Standard (HDD).  
+c. In the Size (GiB) dialog box, provide the value, 128.  
+d. For Storage container, click Browse, then from the Storage account blade, select the previously created storage account, stor20532[Your Name Here]
 
 #### :camera: SCREENSHOT
 >LODSProperties
@@ -718,8 +718,8 @@ Right-click the allfiles compressed folder and select the Extract All option.
 
 
 ### In the Extract Compressed (Zipped) Folders dialog
-In the Extract Compressed \)Zipped) Folders dialog box, do the following:  
-a. In the Files will be extracted to this folder: dialog, provide the value F:\\  
+In the Extract Compressed (Zipped) Folders dialog box, do the following:  
+a. In the Files will be extracted to this folder: dialog, provide the value F:\  
 b. Ensure that the Show extracted files when complete checkbox is NOT selected.  
 c. Click Extract.  
 Wait for the extraction process to complete.
