@@ -16,7 +16,7 @@ Results: After completing this exercise, you will have a new virtual network in 
 Login as Student with a password of Pa$$w0rd.
 
 #### :bulb: KNOWLEDGE
-You can use the Commands menu and choose Ctrl\+Alt\+Delete then click Student and enter Pa$$w0rd and press Enter. You can also use the Command menu and choose Paste/Paste Password instead of typing the password manually.
+You can use the Commands menu and choose Ctrl+Alt+Delete then click Student and enter Pa$$w0rd and press Enter. You can also use the Command menu and choose Paste/Paste Password instead of typing the password manually.
 
 #### :camera: SCREENSHOT
 >LODSProperties
@@ -47,7 +47,7 @@ If this is your first time logging in to the Azure portal, you will see a dialog
 
 #### :camera: SCREENSHOT
 >LODSProperties
->* Uri = screens/666262.jpg
+>* Uri = screens/666262.jpg 
 >* ShowAutomatically = No
 
 
@@ -56,7 +56,7 @@ If this is your first time logging in to the Azure portal, you will see a dialog
 In the navigation pane on the left side of the Azure Portal, scroll down, and then click More Services. In the Browse blade that displays, scroll down and click Virtual networks.
 
 #### :bulb: KNOWLEDGE
-Note that you can click the Show menu button \)3 horizontal lines at top of menu on left) to show the full menu. You can click it again to Hide the menu \)showing just icons).
+Note that you can click the Show menu button (3 horizontal lines at top of menu on left) to show the full menu. You can click it again to Hide the menu (showing just icons).
 
 #### :camera: SCREENSHOT
 >LODSProperties
@@ -111,7 +111,7 @@ Results: After completing this exercise, you will have a new virtual machine sto
 In the navigation pane on the left side of the Azure Portal, scroll down, and click More Services. In the Browse blade that displays, scroll down and click Storage Accounts.
 
 #### :bulb: KNOWLEDGE
-Note that you can click the Show menu button \)3 horizontal lines at top of menu on left) to show the full menu. You can click it again to Hide the menu \)showing just icons).
+Note that you can click the Show menu button (3 horizontal lines at top of menu on left) to show the full menu. You can click it again to Hide the menu (showing just icons).
 
 #### :camera: SCREENSHOT
 >LODSProperties
@@ -135,7 +135,7 @@ In the Storage accounts blade that displays, view your list of Storage instances
 
 ### In the Create storage account blade:
 In the Create storage account blade that displays, perform the following steps:  
-a. In the Name box, provide the value stor20532\[your name in lowercase here\].  
+a. In the Name box, provide the value stor20532[your name in lowercase here].  
 b. In the Deployment model section, ensure that the Resource manager option is selected.  
 c. In the Account kind list, ensure that the General purpose option is selected.  
 d. In the Performance section, ensure that the Standard option is selected.  
@@ -172,7 +172,7 @@ Wait for Azure to finish creating the storage account prior to moving forward wi
 In the navigation pane on the left side of the Azure Portal, scroll down, and click More Services. In the Browse blade that displays, click Virtual machines.
 
 #### :bulb: KNOWLEDGE
-Note that you can click the Show menu button \)3 horizontal lines at top of menu on left) to show the full menu. You can click it again to Hide the menu \)showing just icons).
+Note that you can click the Show menu button (3 horizontal lines at top of menu on left) to show the full menu. You can click it again to Hide the menu (showing just icons).
 
 #### :camera: SCREENSHOT
 >LODSProperties
@@ -264,10 +264,10 @@ c. Click the Select button.
 
 ### Click Settings and perform the following steps:
 In the Create Virtual Machine blade that displays, click Settings and perform the following steps:  
-a. Click the Storage Account section and then select stor20532\[your name here\].  
+a. Click the Storage Account section and then select stor20532[your name here].  
 b. Click the Virtual Network section and then select vnet20532.  
 c. Click the Subnet section and then select Apps.  
-d. Leave default values for Public IP Address, Network Security Group \)firewall), Extensions and High Availability  
+d. Leave default values for Public IP Address, Network Security Group (firewall), Extensions and High Availability  
 e. Under the Monitoring: Diagnostic section, select the Disabled option for both options.  
 f. Scroll down and click OK.  
   
@@ -286,7 +286,7 @@ f. Scroll down and click OK.
 In the Create Virtual Machine blade that displays, click Summary and click OK to create the virtual machine using your specified configuration.
 
 #### :bulb: KNOWLEDGE
-Note: The creation of a new virtual machine can take anywhere between 10 to 15 minutes. You will see a notification on the Dashboard \)home screen) when your virtual machine is created and running.
+Note: The creation of a new virtual machine can take anywhere between 10 to 15 minutes. You will see a notification on the Dashboard (home screen) when your virtual machine is created and running.
 
 #### :camera: SCREENSHOT
 >LODSProperties
@@ -300,7 +300,7 @@ Note: The creation of a new virtual machine can take anywhere between 10 to 15 m
 After the VM has finished deploying, the Overview blade should open automatically. If not, select the newly created virtual machine from your Dashboard. 
 
 #### :bulb: KNOWLEDGE
-Note: The creation of a new virtual machine can take anywhere between 10 to 15 minutes. You will see a notification on the Dashboard \)home screen) when your virtual machine is created and running.
+Note: The creation of a new virtual machine can take anywhere between 10 to 15 minutes. You will see a notification on the Dashboard (home screen) when your virtual machine is created and running.
 
 #### :camera: SCREENSHOT
 >LODSProperties
@@ -525,7 +525,7 @@ Press the Start button of the VM and type 'disk' to search for apps that contain
 ### In the Initialize Disk dialog box:
 In the Initialize Disk dialog box, perform the following steps:  
 a. Verify that Disk 2 is selected for initialization.  
-b. Verify that MBR \)Master Boot Record) is the selected partition style.  
+b. Verify that MBR (Master Boot Record) is the selected partition style.  
 c. Click OK.
 
 #### :camera: SCREENSHOT
@@ -644,7 +644,7 @@ If you see a pop-up for "Several add-ons are ready for use" choose Don't Enable
 
 ### Go to Github
 Go to https://github.com/MicrosoftLearning/20532-DevelopingMicrosoftAzureSolutions/releases/tag/C-v1.0.6  
-\)You can position the cursor in the URL address field and click the "A" icon \)Type Text) in the step window to paste the code)
+(You can position the cursor in the URL address field and click the "A" icon (Type Text) in the step window to paste the code)
 
 #### :bulb: KNOWLEDGE
 If you wish to go with the latest published release of the labfiles you can go to: https://github.com/MicrosoftLearning/20532-DevelopingMicrosoftAzureSolutions/releases/latest   
@@ -694,7 +694,8 @@ b. Click OK.
 If the Unblock button is not present, do the following:  
 a. Clear ReadOnly checkbox.  
 b. Click OK.  
-c. Click OK.  \)to apply to all files and folders)  
+c. Click OK.  
+(to apply to all files and folders)  
 d. Open Properties window again and click Unblock and click OK.
 
 #### :camera: SCREENSHOT
